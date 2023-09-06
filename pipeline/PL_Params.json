@@ -1,7 +1,7 @@
 {
-	"name": "PL_Araay",
+	"name": "PL_Params",
 	"properties": {
-		"description": "Adding",
+		"description": "pipeline creation",
 		"activities": [
 			{
 				"name": "Filter1",
@@ -10,11 +10,11 @@
 				"userProperties": [],
 				"typeProperties": {
 					"items": {
-						"value": "@variables('DataArray')",
+						"value": "@pipeline().parameters.account_name",
 						"type": "Expression"
 					},
 					"condition": {
-						"value": "@not(equals(item(), 'ccc'))",
+						"value": "@not(equals(item(),'ccc'))",
 						"type": "Expression"
 					}
 				}
@@ -22,18 +22,11 @@
 		],
 		"parameters": {
 			"account_name": {
-				"type": "string",
-				"defaultValue": "ab-867"
-			}
-		},
-		"variables": {
-			"DataArray": {
-				"type": "Array",
+				"type": "array",
 				"defaultValue": [
 					"aaa",
 					"bbb",
-					"ccc",
-					"ddd"
+					"ccc"
 				]
 			}
 		},
