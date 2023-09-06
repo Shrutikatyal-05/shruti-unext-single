@@ -1,0 +1,15 @@
+{
+	"name": "PL_Araay",
+	"properties": {
+		"description": "Adding",
+		"variables": {
+			"DataArray": {
+				"type": "Array",
+				"defaultValue": [
+					"['aaa','bbb','ccc','ddd']"
+				]
+			}
+		},
+		"annotations": []
+	}
+}
