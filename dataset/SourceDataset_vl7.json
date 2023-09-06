@@ -1,0 +1,45 @@
+{
+	"name": "SourceDataset_vl7",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "iris.data.csv",
+				"fileSystem": "container06shruti"
+			},
+			"columnDelimiter": ",",
+			"rowDelimiter": "\n",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "5.1",
+				"type": "String"
+			},
+			{
+				"name": "3.5",
+				"type": "String"
+			},
+			{
+				"name": "1.4",
+				"type": "String"
+			},
+			{
+				"name": "0.2",
+				"type": "String"
+			},
+			{
+				"name": "Iris-setosa",
+				"type": "String"
+			}
+		]
+	}
+}
