@@ -1,5 +1,5 @@
 {
-	"name": "Json1",
+	"name": "INPUTDATASET",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "HttpServer1",
@@ -9,8 +9,7 @@
 		"type": "Json",
 		"typeProperties": {
 			"location": {
-				"type": "HttpServerLocation",
-				"relativeUrl": "https://atlas.microsoft.com/weather/currentConditions/json?api-version=1.0&query=47.60357,-122.32945&subscription-key=RC9l6uyUWjmZAQWlQFZEgWV4F2oBZzg1HmC7lhNPyGw"
+				"type": "HttpServerLocation"
 			}
 		},
 		"schema": {}
