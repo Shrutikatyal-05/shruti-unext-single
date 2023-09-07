@@ -1,0 +1,25 @@
+{
+	"name": "PL_web_API",
+	"properties": {
+		"activities": [
+			{
+				"name": "Web1",
+				"type": "WebActivity",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "0.12:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"url": "https://teams.microsoft.com/l/message/19:3973f0c1-6618-41e8-91ea-7a2f2a593d2f_4998ccba-ebb4-4562-962e-f9664b2502b3@unq.gbl.spaces/1694077428508?context=%7B%22contextType%22%3A%22chat%22%7D",
+					"method": "GET"
+				}
+			}
+		],
+		"annotations": []
+	}
+}
