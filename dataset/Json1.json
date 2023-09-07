@@ -1,0 +1,18 @@
+{
+	"name": "Json1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "HttpServer1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": "https://teams.microsoft.com/l/message/19:4998ccba-ebb4-4562-962e-f9664b2502b3_674dde6b-1b2f-41f7-a6c2-63655cd91eb6@unq.gbl.spaces/1694079288641?context=%7B%22contextType%22%3A%22chat%22%7D"
+			}
+		},
+		"schema": {}
+	}
+}
