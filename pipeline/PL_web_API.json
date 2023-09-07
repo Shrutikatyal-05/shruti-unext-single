@@ -15,7 +15,7 @@
 				},
 				"userProperties": [],
 				"typeProperties": {
-					"url": "https://teams.microsoft.com/l/message/19:3973f0c1-6618-41e8-91ea-7a2f2a593d2f_4998ccba-ebb4-4562-962e-f9664b2502b3@unq.gbl.spaces/1694077428508?context=%7B%22contextType%22%3A%22chat%22%7D",
+					"url": "https://atlas.microsoft.com/weather/currentConditions/json?api-version=1.0&query=47.60357,-122.32945&subscription-key=RC9l6uyUWjmZAQWlQFZEgWV4F2oBZzg1HmC7lhNPyGw",
 					"method": "GET"
 				}
 			},
