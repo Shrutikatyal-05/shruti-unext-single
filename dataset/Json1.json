@@ -10,7 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "HttpServerLocation",
-				"relativeUrl": "https://teams.microsoft.com/l/message/19:4998ccba-ebb4-4562-962e-f9664b2502b3_674dde6b-1b2f-41f7-a6c2-63655cd91eb6@unq.gbl.spaces/1694079288641?context=%7B%22contextType%22%3A%22chat%22%7D"
+				"relativeUrl": "https://atlas.microsoft.com/weather/currentConditions/json?api-version=1.0&query=47.60357,-122.32945&subscription-key=RC9l6uyUWjmZAQWlQFZEgWV4F2oBZzg1HmC7lhNPyGw"
 			}
 		},
 		"schema": {}
