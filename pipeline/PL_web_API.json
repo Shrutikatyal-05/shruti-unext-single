@@ -62,13 +62,13 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "Json1",
+						"referenceName": "INPUTDATASET",
 						"type": "DatasetReference"
 					}
 				],
 				"outputs": [
 					{
-						"referenceName": "Json2",
+						"referenceName": "OUTPUTDATASET",
 						"type": "DatasetReference"
 					}
 				]
